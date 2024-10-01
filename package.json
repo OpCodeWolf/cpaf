@@ -1,0 +1,23 @@
+{
+  "name": "cross-platform-application-framework",
+  "version": "1.0.0",
+  "description": "Cross Platform Application Framework",
+  "main": "build/index.js",
+  "scripts": {
+    "set-cache-dir": "export NODE_GYP_CACHE=$HOME/.node-gyp-cache",
+    "set-flags": "export CXXFLAGS=\"-I$(npm root)/node-addon-api -fexceptions\"",
+    "clean": "rm -rf build/ && cd native && node-gyp clean cd -",
+    "build:native": "npm run set-flags && npm run set-cache-dir && npm run clean && cd native && node-gyp configure && node-gyp build --verbose && cd",
+    "build": "tsc",
+    "build:all": "npm run build:native && npm run build",
+    "watch": "npm run build:native && tsc -w",
+    "start": "npm run build:all && node build/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "node-addon-api": "^8.0.0",
+    "node-gyp": "^10.2.0",
+    "typescript": "^5.6.2"
+  },
+  "gypfile": true
+}
