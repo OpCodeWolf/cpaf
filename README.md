@@ -94,7 +94,19 @@ A: No, not yet. It's freeware in the meantime. I want something that's open sour
 
 ## WindowAPI
 
-This project will be a windowing API across multiple platforms, 
+This project goal will be a windowing API across multiple platforms for use with TypeScript.
+
+### Current Exports:
+
+- logEnvInfo()
+
+- createWindow(null)
+
+- setWindowTitle(string)
+
+- setWindowSize(width: int, height: int)
+
+- eventLoop()
 
 ## Test Installation
 As this is a NodeJS build framework, you must install it's dependencies using the Node Package Manager like so:
