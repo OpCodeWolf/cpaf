@@ -109,7 +109,7 @@ This project goal will be a windowing API across multiple platforms for use with
 - eventLoop()
 
 ### Example Typescript
-```
+```typescript
 const WindowAPI = require('../native/build/Release/windowAPI.node');
 
 // Create the window
