@@ -106,7 +106,7 @@ This project goal will be a windowing API across multiple platforms for use with
 
 - window.setWindowSize(width: int, height: int) - Resizes an open window
 
-- window.eventLoop() - Starts the event loop for the window
+- window.eventLoop() - Starts the event loop for the window. (WIP) This currently just checks for a keyboard key being pressed and then closes the window.
 
 ### Example Typescript
 ```typescript
