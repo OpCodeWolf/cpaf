@@ -123,7 +123,9 @@ From time to time I also like to ask AI to help solve something and for any reas
 
 This could take a long time to complete, if everyone is plagerizing work they have submitted.
 
-I don't give out participation trophies, but I do give credit. If you see a credit missing, please let me know and I will fix it.
+I don't give out participation trophies, but I do give credit.
+
+If you see a credit missing, please let me know and I will fix it.
 
 ## PDP-TLC
 
