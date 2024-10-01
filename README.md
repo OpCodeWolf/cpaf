@@ -98,15 +98,15 @@ This project goal will be a windowing API across multiple platforms for use with
 
 ### Current Exports:
 
-- logEnvInfo()
+- logEnvInfo() - WIP to be able to output information about the current window environment, exceptions, and events
 
-- createWindow(null)
+- createWindow(null) - Returns a window object
 
-- setWindowTitle(string)
+- window.setWindowTitle(string) - Sets the windows title
 
-- setWindowSize(width: int, height: int)
+- window.setWindowSize(width: int, height: int) - Resizes an open window
 
-- eventLoop()
+- window.eventLoop() - Starts the event loop for the window
 
 ### Example Typescript
 ```typescript
