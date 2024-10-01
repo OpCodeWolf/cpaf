@@ -20,77 +20,77 @@ Right now everything looks like a mess and as I figure out how to refactor each 
 
 ## Frequently Asked Questions
 
-```
-Q: Why don't you just use a framework that already exists like Qt or <insert name here> ?
+**Q**: Why don't you just use a framework that already exists like Qt or <insert name here> ?
 
-A: I don't particularly like giving away my first born to these companies that have vague licensing or volume licensing, only to find out later that you've somehow violated their precious license and you are forced to scrap everything you have been building for the past 2 years, unless you pay them an ongodly fortune. Thusly, I will be creating my own framework from scratch. Period.
-```
+**A**: I don't particularly like giving away my first born to these companies that have vague licensing or volume licensing, only to find out later that you've somehow violated their precious license and you are forced to scrap everything you have been building for the past 2 years, unless you pay them an ongodly fortune. Thusly, I will be creating my own framework from scratch. Period.
 
-```
-Q: Why would you do this?
+---
 
-A: I need an application framework really soon, for projects/products I will be creating. I don't want to have to rewrite everything to please a 3rd party company or be wrapped up in their licensing schemes. Plus I like to learn new things.
-```
+**Q**: This seems like a daunting task, why would you do this?
 
-```
-Q: Can other people use this framework in their private or commercial projects?
+**A**: I need an application framework really soon, for projects/products I will be creating. I don't want to have to rewrite everything to please a 3rd party company or be wrapped up in their licensing schemes. Plus I like to learn new things.
 
-A: Yes, absolutely! The only way to beat the competition is to squash them at their own game.
-```
+---
 
-```
-Q: Will you be using many 3rd party libraries in the creation of this?
+**Q**: Can other people use this framework in their private or commercial projects?
 
-A: Some are unavoidable, but No in general. I will be creating the code from scratch, with no influence or guidence from outside companies or organizations. If I can I will replace any 3rd party code with my own.
-```
+**A**: Yes, absolutely! The only way to beat the competition is to squash them at their own game.
 
-```
-Q: How long have you been programming?
+---
 
-A: I've been in the field for over 40 years. I'm seasoned. :)
-```
+**Q**: Will you be using many 3rd party libraries in the creation of this?
 
-```
-Q: You mispelled something, will you fix it?
+**A**: Some are unavoidable, but No in general. I will be creating the code from scratch, with no influence or guidence from outside companies or organizations. If I can I will replace any 3rd party code with my own.
 
-A: You, have a way to enter text and send it to me. You, should use that gift called a brain, learn git, and submit a PR to fix it. I really don't need keyboard typo commandos telling me what I should fix, it wastes precious time. Show some initiative and support the project directly. 
-```
+---
 
-```
-Q: Will you ever make this closed source for monetary gain?
+**Q**: How long have you been programming?
 
-A: NO! What I build with this framework may be sold for monitary gain. These companies and organizations that make their open-source projects closed source and "ungift" their fans and customers, are all business idiots. They piss me the hell off. They need to get off the internet. I am promising that this project will never ever.. ever.. ever.. ever go closed source, unless I'm forced to for some legal reason. To which I really won't be happy about it, but it will then be temporary. If that ever happens for any reason, rest assured that I will pull out chunks of code involved in whatever legal issue and keep this project open source forever. I don't scare easily, but I tend to scare others. Yes, I have powerful Attorneys and they are very well paid.
-```
+**A**: I've been in the field for over 40 years. I'm seasoned. :)
 
-```
-Q: Can I help out?
+---
 
-A: Yes! I need all the help I can get. Submit a PR!
-```
+**Q**: You mispelled something, will you fix it?
 
-```
-Q: Do you stream on twitch?
+**A**: You, have a way to enter text and send it to me. You, should use that gift called a brain, learn git, and submit a PR to fix it. I really don't need keyboard typo commandos telling me what I should fix, it wastes precious time. Show some initiative and support the project directly. 
 
-A: I have been planning on doing this for a while now. I havn't yet reoganized the time between 2 companies and personal life. In the future, this will definately be a thing. I love participating with the community and offering knowledge to others.
-```
+---
 
-```
-Q: What languages do you know?
+**Q**: Will you ever make this closed source for monetary gain?
 
-A: I'm fluent in over 28 programming languages and currently provide my services and knowledge to Silicon Valley companies.
-```
+**A**: NO! What I build with this framework may be sold for monitary gain. These companies and organizations that make their open-source projects closed source and "ungift" their fans and customers, are all business idiots. They piss me the hell off. They need to get off the internet. I am promising that this project will never ever.. ever.. ever.. ever go closed source, unless I'm forced to for some legal reason. To which I really won't be happy about it, but it will then be temporary. If that ever happens for any reason, rest assured that I will pull out chunks of code involved in whatever legal issue and keep this project open source forever. I don't scare easily, but I tend to scare others. Yes, I have powerful Attorneys and they are very well paid.
 
-```
-Q: What is your favorite language?
+---
 
-A: There's a few and for different reasons. Right now it's TypeScript/C++, but Python is also in close running.
-```
+**Q**: Can I help out?
 
-```
-Q: Did you add a license to this?
+**A**: Yes! I need all the help I can get. Submit a PR!
 
-A: No, not yet. It's freeware in the meantime. I want something that's open source forever, without companies and organizations plagerizing, trademarking, and/or patenting it as their own. If you know of a good license that achieves this, please let me know.
-```
+---
+
+**Q**: Do you stream on twitch?
+
+**A**: I have been planning on doing this for a while now. I havn't yet reoganized the time between 2 companies and personal life. In the future, this will definately be a thing. I love participating with the community and offering knowledge to others.
+
+---
+
+**Q**: What languages do you know?
+
+**A**: I'm fluent in over 28 programming languages and currently provide my services and knowledge to Silicon Valley companies.
+
+---
+
+**Q**: What is your favorite language?
+
+**A**: There's a few and for different reasons. Right now it's TypeScript/C++, but Python is also in close running.
+
+---
+
+**Q**: Did you add a license to this?
+
+**A**: No, not yet. It's freeware in the meantime. I want something that's open source forever, without companies and organizations plagerizing, trademarking, and/or patenting it as their own. If you know of a good license that achieves this, please let me know.
+
+---
 
 ## WindowAPI
 
