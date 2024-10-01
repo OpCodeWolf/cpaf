@@ -106,7 +106,7 @@ This project goal will be a windowing API across multiple platforms for use with
 
 - window.setWindowSize(width: int, height: int) - Resizes an open window
 
-- window.eventLoop() - Starts the event loop for the window. (WIP) This currently just checks for a keyboard key being pressed and then closes the window.
+- window.eventLoop() - Starts the event loop for the window. (WIP) This currently just checks for a keyboard key being pressed and then closes the window. This will need to handle actual events in the future.
 
 ### Example Typescript
 ```typescript
@@ -116,10 +116,10 @@ const WindowAPI = require('../native/build/Release/windowAPI.node');
 const window = WindowAPI.createWindow(null);
 
 // Resize the window after it's created
-window.setWindowSize(width, height);
+window.setWindowSize(1024, 768);
     
 // Set the windows title
-window.setWindowTitle(title);
+window.setWindowTitle("Example Native Application built with Typescript");
 
 // Run the event loop to keep the window active
 window.eventLoop();
