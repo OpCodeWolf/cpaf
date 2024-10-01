@@ -41,7 +41,7 @@ A: Yes, absolutely! The only way to beat the competition is to squash them at th
 ```
 Q: Will you be using many 3rd party libraries in the creation of this?
 
-A: No. I will be creating the code from scratch, with no influence or guidence from outside companies or organizations. 
+A: Some are unavoidable, but No in general. I will be creating the code from scratch, with no influence or guidence from outside companies or organizations. If I can I will replace any 3rd party code with my own.
 ```
 
 ```
