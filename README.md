@@ -113,7 +113,7 @@ npm run start
 
 ## Particpation
 
-If you know how to fix something without the influence of plagerizing of code, please submit a PR to fix something or improve it. Please know that most developers fall under agreements or NDAs by their company or organization. Just know that what you submit will have your name attached to it.
+If you know how to fix something without the influence of plagerizing code, please submit a PR to fix something or improve it. Please know that most developers fall under agreements or NDAs by their company or organization. Just know that what you submit will have your name attached to it.
 
 If you submit plagerized or private work, it will be removed at the request of your company/organization and be reprogrammed in a different way, after proof has been established.
 
