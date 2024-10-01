@@ -110,6 +110,7 @@ This project goal will be a windowing API across multiple platforms for use with
 
 ### Example Typescript
 ```typescript
+// This will be converted to a NPM module import in the future.
 const WindowAPI = require('../native/build/Release/windowAPI.node');
 
 // Create the window
