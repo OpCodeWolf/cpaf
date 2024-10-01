@@ -67,6 +67,20 @@ void SetWindowSize(const Napi::CallbackInfo& info) {
     XFlush(display);  // Ensure the change is applied
 }
 
+// Method to handle X11 events
+void EventLoop(const Napi::CallbackInfo& info) {
+    XEvent event;
+    while (true) {
+        XNextEvent(display, &event);
+        if (event.type == Expose) {
+            // Optionally handle expose events to redraw window contents
+        }
+        if (event.type == KeyPress) {
+            break; // Exit on key press
+        }
+    }
+}
+
 // Function to create the X11 window and return an object
 Napi::Object CreateWindow(const Napi::CallbackInfo& info) {
     Napi::Env env = info.Env();
@@ -95,33 +109,20 @@ Napi::Object CreateWindow(const Napi::CallbackInfo& info) {
     XSelectInput(display, window, ExposureMask | KeyPressMask);
     XMapWindow(display, window);
 
-    // Attach setWindowTitle function to the window object
+    // Attach export functions to the window object
     windowObj.Set("setWindowTitle", Napi::Function::New(env, SetWindowTitle));
+    windowObj.Set("setWindowTitle", Napi::Function::New(env, SetWindowTitle));
+    windowObj.Set("setWindowSize", Napi::Function::New(env, SetWindowSize));
+    windowObj.Set("eventLoop", Napi::Function::New(env, EventLoop));
+
     
     return windowObj;
-}
-
-// Method to handle X11 events
-void EventLoop(const Napi::CallbackInfo& info) {
-    XEvent event;
-    while (true) {
-        XNextEvent(display, &event);
-        if (event.type == Expose) {
-            // Optionally handle expose events to redraw window contents
-        }
-        if (event.type == KeyPress) {
-            break; // Exit on key press
-        }
-    }
 }
 
 // Initializer function to export methods to Node.js
 Napi::Object Init(Napi::Env env, Napi::Object exports) {
     exports.Set("logEnvInfo", Napi::Function::New(env, LogEnvironmentInfo));
     exports.Set("createWindow", Napi::Function::New(env, CreateWindow));
-    exports.Set("setWindowTitle", Napi::Function::New(env, SetWindowTitle));
-    exports.Set("setWindowSize", Napi::Function::New(env, SetWindowSize));
-    exports.Set("eventLoop", Napi::Function::New(env, EventLoop));
     return exports;
 }
 

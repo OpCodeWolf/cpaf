@@ -108,6 +108,24 @@ This project goal will be a windowing API across multiple platforms for use with
 
 - eventLoop()
 
+### Example Typescript
+```
+const WindowAPI = require('../native/build/Release/windowAPI.node');
+
+// Create the window
+const window = WindowAPI.createWindow(null);
+
+// Resize the window after it's created
+window.setWindowSize(width, height);
+    
+// Set the windows title
+window.setWindowTitle(title);
+
+// Run the event loop to keep the window active
+window.eventLoop();
+
+```
+
 ## Test Installation
 As this is a NodeJS build framework, you must install it's dependencies using the Node Package Manager like so:
 

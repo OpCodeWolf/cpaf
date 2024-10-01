@@ -13,13 +13,13 @@ function createApp(...params: any) {
     const window = WindowAPI.createWindow(null);
 
     // Resize the window after it's created
-    WindowAPI.setWindowSize(width, height);  // Set the window size to 1024x768
+    window.setWindowSize(width, height);
     
     // Set the windows title
     window.setWindowTitle(title);
 
     // Run the event loop to keep the window active
-    WindowAPI.eventLoop();
+    window.eventLoop();
 
 }
 
