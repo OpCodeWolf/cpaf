@@ -23,7 +23,6 @@
 // #include "./controls/toolstrip.h"
 // #include "./controls/panel.h"
 // #include "./controls/progressbar.h"
-// #include "./controls/progressbar.h"
 
 // Global variables for the X11 display and window
 Display* display;
